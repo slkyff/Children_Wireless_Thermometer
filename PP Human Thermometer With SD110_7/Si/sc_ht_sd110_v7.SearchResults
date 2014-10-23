@@ -1,0 +1,39 @@
+---- sd_ble_gatts_characteristic_add Matches (38 in 19 files) ----
+Ble_bas.c (lib\source\ble\ble_services):    err_code = sd_ble_gatts_characteristic_add(p_bas->service_handle, &char_md,
+Ble_bps.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_bps->service_handle,
+Ble_bps.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_bps->service_handle,
+Ble_cscs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_cscs->service_handle,
+Ble_cscs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_cscs->service_handle,
+Ble_cscs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_cscs->service_handle,
+Ble_dfu.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_dfu->service_handle,
+Ble_dfu.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_dfu->service_handle,
+Ble_dis.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(service_handle, &char_md, &attr_char_value, p_handles);
+Ble_gatts.h (lib\include\s110):SVCALL(SD_BLE_GATTS_CHARACTERISTIC_ADD, uint32_t, sd_ble_gatts_characteristic_add(uint16_t service_handle, ble_gatts_char_md_t const*const p_char_md, ble_gatts_attr_t const*const p_attr_char_value, ble_gatts_char_handles_t *const p_handles));
+Ble_gatts.h (lib\include\s120):SVCALL(SD_BLE_GATTS_CHARACTERISTIC_ADD, uint32_t, sd_ble_gatts_characteristic_add(uint16_t service_handle, ble_gatts_char_md_t const *p_char_md, ble_gatts_attr_t const *p_attr_char_value, ble_gatts_char_handles_t *p_handles));
+Ble_gatts_app.h (lib\include\serialization\application\codecs\s110\serializers):/**@brief Encodes @ref sd_ble_gatts_characteristic_add command request.
+Ble_gatts_app.h (lib\include\serialization\application\codecs\s110\serializers):/**@brief Decodes response to @ref sd_ble_gatts_characteristic_add command.
+Ble_gls.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_gls->service_handle,
+Ble_gls.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_gls->service_handle,
+Ble_gls.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_gls->service_handle,
+Ble_hids.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hids->service_handle,
+Ble_hids.c (lib\source\ble\ble_services):    err_code = sd_ble_gatts_characteristic_add(p_hids->service_handle,
+Ble_hids.c (lib\source\ble\ble_services):    err_code = sd_ble_gatts_characteristic_add(p_hids->service_handle,
+Ble_hids.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hids->service_handle,
+Ble_hids.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hids->service_handle, &char_md, &attr_char_value,
+Ble_hids.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hids->service_handle, &char_md,
+Ble_hids.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hids->service_handle, &char_md, 
+Ble_hrs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hrs->service_handle,
+Ble_hrs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hrs->service_handle,
+Ble_hts.c (lib\source\ble\ble_services):	return sd_ble_gatts_characteristic_add(service_handle, \
+Ble_hts.c (lib\source\ble\ble_services):	return sd_ble_gatts_characteristic_add(service_handle, \
+Ble_hts.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hts->service_handle,
+Ble_hts.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_hts->service_handle,
+Ble_ias.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_ias->service_handle,
+Ble_lls.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_lls->service_handle,
+Ble_rscs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_rscs->service_handle,
+Ble_rscs.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_rscs->service_handle,
+Ble_sc_ctrlpt.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_sc_ctrlpt->service_handle,
+Ble_tps.c (lib\source\ble\ble_services):    return sd_ble_gatts_characteristic_add(p_tps->service_handle,
+Conn_mw_ble_gatts.h (lib\include\serialization\connectivity\codecs\s110\middleware):/**@brief Handles @ref sd_ble_gatts_characteristic_add command and prepares response.
+User_drv_self_def_service.c (usr\drv\src):	return sd_ble_gatts_characteristic_add(service_handle, \
+User_drv_self_def_service.c (usr\drv\src):	return sd_ble_gatts_characteristic_add(service_handle, \
