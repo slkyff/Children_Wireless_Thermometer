@@ -3,6 +3,15 @@
 *.ko
 *.obj
 *.elf
+*.dep
+*.crf
+*.d
+*.htm
+*.axf
+*.lnp
+*.plg
+*.sct
+*.Administrator
 
 # Precompiled Headers
 *.gch
